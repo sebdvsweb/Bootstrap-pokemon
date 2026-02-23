@@ -13,24 +13,52 @@
     
 
     <!-- Construire les différentes sections de la page :
+
     
     - Navbar rouge avec logo et menu (chaque entrée du menu amène à une section de la page)
+        - Voir : https://getbootstrap.com/docs/5.3/components/navbar/#nav
+        - Ajouter la navbar ci-dessus
+        - Changer la class bg-body-tertiary par votre class de fond-rouge
+        - Ajouter le logo
+        - Modifier les liens et les passer en blanc
 
+    
 
     - Header avec image full width et bordure haut et bas
-
-    - Section 1 
-
-    - section image full width
-
-    - section 2
+        - Border : https://getbootstrap.com/docs/5.3/utilities/borders/#color
 
 
-    - section bande-annonce avec lien iframe youtube
+    
+    - Section 1 : 
+        - Ajouter un container avec deux rangées (row)
+        - Dans chaque rangée, inclure deux colonnes
+        - Une colonne pour le texte (col-lg-8), une pour l'image (col-lg-4)
+
+    
+
+    - Section image full width 
+        - Utiliser un container-fluid
+
+    
+    
+    - Section 2 : 
+        - Ajouter un container avec une rangée à trois colonnes identiques (col-lg-4)
+        - Chaque colonne contient une image, un titre, un paragraphe
+        - Utiliser les class de Bootstrap pour les couleurs de fond et les bordures blanches
 
 
-    - footer
+    
+    - Section bande-annonce avec lien iframe youtube
+        - Inclure la bande-annonce
 
+
+    
+    - Footer
+        - Utiliser un container-fluid
+        - Reprendre la même classe que la navbar pour le fond rouge
+
+
+    
     Conseils :
     
     - Utilisez la grille bootstrap pour construire la page (container, container-fluid, row, col-lg, etc)
